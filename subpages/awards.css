@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('b2.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.award {
+    width: 45%;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #AD974F;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
